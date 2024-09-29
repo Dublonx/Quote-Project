@@ -1,0 +1,115 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Quote */
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px #222;
+  padding: 15px;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 0;
+  position: relative;
+}
+
+.container h3::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: tomato;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container p {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.box #quoteText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 0;
+}
+
+.displayText p {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 10px;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.container #author {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 10px;
+  min-height: 20px;
+}
+
+.container button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .5s ease;
+  background-color: #e2e2e2;
+}
+
+.container button:active {
+  background-color: #eee;
+}
+
+.container-icon {
+  position: relative;
+  margin-top: 10px;
+}
+
+.container-icon i {
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+}
