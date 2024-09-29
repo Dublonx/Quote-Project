@@ -1,5 +1,4 @@
 ## Here's The Output
-![Alt Image](q1.jpg)
 ![Alt Image](q2.jpg)
 
 ### Languange Use
